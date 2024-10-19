@@ -22,6 +22,7 @@ jobs:
 
       - uses: lowlighter/metrics@latest
         with:
+          config_timezone: 	America/Edmonton
           #output_action: none
           output_action: commit
           #output_action: pull-request-merge
